@@ -39,8 +39,6 @@ All required datasets and generated files are available on Google Drive:
 
 https://drive.google.com/drive/folders/1RIzUX4otG9QSWPi8giGe2oN57Vo23rwq?usp=sharing
 
-After downloading, place the `data/` folder in the project root directory before running the notebooks.
-
 
 ## Methodology (by notebook)
 
