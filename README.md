@@ -10,7 +10,7 @@ and is split into train/test at an 80/20 ratio, stratified by `is_duplicate`.
 
 | | Train | Test |
 |---|---|---|
-| Size | 323,432 | 80,858 |
+| Size | 323 429 | 80 858 |
 | Duplicate share | ~36.3% | ~36.3% |
 
 ## Repository Structure
