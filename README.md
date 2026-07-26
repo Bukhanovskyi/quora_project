@@ -31,6 +31,16 @@ and is split into train/test at an 80/20 ratio, stratified by `is_duplicate`.
 │   └── val_predictions.pkl                               # saved probabilities for comparison
 └── README.md
 ```
+## Dataset
+
+Due to GitHub's file size limitations, the contents of the `data/` folder are not included in this repository.
+
+All required datasets and generated files are available on Google Drive:
+
+https://drive.google.com/drive/folders/1RIzUX4otG9QSWPi8giGe2oN57Vo23rwq?usp=sharing
+
+After downloading, place the `data/` folder in the project root directory before running the notebooks.
+
 
 ## Methodology (by notebook)
 
