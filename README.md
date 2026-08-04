@@ -132,8 +132,8 @@ F1 0.843, ROC-AUC 0.951 — reported here only as a reference value, not as the 
   confident predictions. Combining models only pays off when they're of comparable strength,
   or when combined with a weighted average that favors the stronger model.
 - **Error analysis reveals two systematic weaknesses in the best model**:
-  (1) it under-scores duplicate pairs where one question is a much more specific/general version of the other,
-  (2) it sometimes classifies based on sentence *structure* rather than meaning — e.g. it confidently (87%) predicted "Would you consider Trump a hypocrite?" and "Do you consider
+  1. it under-scores duplicate pairs where one question is a much more specific/general version of the other,
+  2. it sometimes classifies based on sentence *structure* rather than meaning — e.g. it confidently (87%) predicted "Would you consider Trump a hypocrite?" and "Do you consider
   Trump a pervert?" as duplicates purely because both follow the same "Do/Would you consider X as Y?" template. Some remaining errors also appear to be mislabeled or borderline pairs in the underlying Quora dataset rather than genuine model failures.
 
 ## Possible Next Steps
